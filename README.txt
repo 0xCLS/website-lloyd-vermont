@@ -45,3 +45,8 @@ V5 — November 16, 2026
 - Testimonials show one at a time with previous/next arrows, position dots, keyboard arrow navigation, and live counter. No auto-advance.
 - Full testimonial expands in place, replacing (not duplicating) the excerpt and adding no divider rule. Switching slides collapses the previous card.
 - Contents and supplied image assets retained from V4; newsletter remains demo-only.
+
+AUTHOR NAME STANDARDIZATION — November 17, 2026
+- All public name displays and website-authored references use “Lloyd A. Vermont Sr.” (uppercase styling where appropriate).
+- Header and footer names updated; navigation uses “About the Author” to preserve its responsive layout.
+- Book cover, media assets, URLs, original testimonial quotations and original V5 baseline commit are unchanged.
