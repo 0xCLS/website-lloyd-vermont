@@ -20,7 +20,7 @@ document.addEventListener('keydown', event => {
   }
 });
 const signup = document.getElementById('signup-form');
-signup.addEventListener('submit', event => {
+if (signup) signup.addEventListener('submit', event => {
   event.preventDefault();
   const emailInput = document.getElementById('email');
   const message = document.getElementById('form-feedback');

@@ -57,3 +57,66 @@
 .brand{font-size:clamp(1.07rem,1.55vw,1.35rem);white-space:nowrap;flex-shrink:0}
 .footer-brand{font-size:clamp(1.06rem,1.75vw,1.45rem);overflow-wrap:anywhere}
 @media(max-width:580px){.brand{font-size:clamp(.93rem,4.3vw,1.1rem)}.brand small{letter-spacing:.09em}}
+
+
+/* Biography page and editorial refinements — maintains the V5 visual language. */
+.about-actions{display:flex;flex-wrap:wrap;gap:12px 30px;align-items:center;margin-top:10px}
+.about-actions .text-link.strong{margin-top:14px}
+.book-copy .book-subtitle{font:italic clamp(1.24rem,2.1vw,1.62rem)/1.5 var(--font-serif);border-left:3px solid var(--red);padding:1px 0 2px 22px;margin:24px 0 28px;color:#252b31}
+.bio-page .site-header{background:var(--paper)}
+.bio-back-row{padding:28px 0 0}
+.bio-back-link{text-decoration:none;font-size:.82rem;font-weight:750;color:#545b61;border-bottom:1px solid #aaa29a;padding-bottom:5px}
+.bio-back-link:hover{color:var(--red);border-color:var(--red)}
+.bio-hero{padding:68px 0 92px;overflow:hidden}
+.bio-hero-grid{display:grid;grid-template-columns:1.06fr .94fr;gap:8%;align-items:center}
+.bio-hero h1{font-size:clamp(3.65rem,5.9vw,6.35rem);line-height:1.01;letter-spacing:-.056em;margin:0 0 25px}
+.bio-hero h1 em{color:var(--red)}
+.bio-role{font-size:.77rem;letter-spacing:.11em;text-transform:uppercase;font-weight:800;color:#575b60;margin:0 0 26px}
+.bio-lead{font-size:clamp(1.18rem,1.6vw,1.36rem);line-height:1.74;color:#31363b;margin:0 0 22px;max-width:660px}
+.bio-intro{font-size:1rem;line-height:1.85;max-width:630px}
+.bio-portrait{position:relative;margin:0;padding-right:16px;padding-bottom:18px}
+.bio-portrait:before{content:"";position:absolute;background:var(--red);inset:22px 0 0 18px;z-index:0}
+.bio-portrait img{position:relative;width:100%;height:610px;object-fit:cover;object-position:center 30%;border:8px solid #fffefb}
+.bio-portrait figcaption{position:absolute;z-index:1;right:-10px;bottom:0;padding:14px 22px;background:#fffefb;border:1px solid #dfd7ca;font-size:.74rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+.bio-section{padding:99px 0}
+.bio-section.paper{background:var(--paper)}
+.bio-section.white{background:#fffdfa}
+.bio-section.sand{background:var(--sand)}
+.bio-section.dark{background:var(--ink);color:white}
+.bio-section.dark p,.bio-section.dark li{color:#d4d6d9}
+.bio-two-col{display:grid;grid-template-columns:.83fr 1.17fr;gap:11%}
+.bio-two-col h2{margin:0;max-width:470px}
+.bio-section h2{font-size:clamp(2.7rem,4.6vw,4.9rem);margin-bottom:25px}
+.bio-section h2 em{color:var(--red)}
+.bio-section.dark h2 em{color:#eea394}
+.bio-prose{max-width:720px}
+.bio-prose p{font-size:1.045rem;line-height:1.9;margin:0 0 23px}
+.bio-prose p:last-child{margin-bottom:0}
+.bio-introline{font-size:1.06rem;max-width:750px;line-height:1.82;margin-bottom:38px}
+.bio-pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+.bio-pillar{background:#fffdfa;border:1px solid #dbd5cb;padding:30px 29px 35px;min-height:315px}
+.bio-pillar .pillar-n{font-size:.8rem;font-weight:850;color:var(--red);letter-spacing:.15em}
+.bio-pillar h3{font-size:1.64rem;margin:38px 0 15px}
+.bio-pillar p{font-size:.96rem;line-height:1.7;margin:0}
+.bio-mentoring-grid{display:grid;grid-template-columns:.94fr 1.06fr;gap:10%;align-items:start}
+.bio-mentoring-grid h2{max-width:570px}
+.bio-metrics{display:flex;flex-wrap:wrap;gap:13px;margin-top:35px}
+.bio-metric{flex:1 1 180px;padding:23px 21px;border:1px solid #726f72}
+.bio-metric strong{display:block;font-size:clamp(2.5rem,4.5vw,3.65rem);letter-spacing:-.05em;line-height:1;color:white}
+.bio-metric span{display:block;color:#cdd0d4;font-size:.79rem;letter-spacing:.04em;margin-top:11px}
+.bio-mentoring-grid .bio-prose p{color:#dadddf}
+.bio-note{font-size:.77rem!important;line-height:1.65!important;color:#b8bcc2!important}
+.bio-milestones{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 48px;margin:35px 0 0}
+.bio-milestone{display:grid;grid-template-columns:90px 1fr;gap:15px;align-items:start;padding:24px 0;border-top:1px solid #c9c0b5}
+.bio-milestone dt{font-weight:900;color:var(--red);font-size:1.2rem;letter-spacing:-.025em}
+.bio-milestone dd{margin:0;color:#353a3f;font-size:1rem;line-height:1.68}
+.bio-book-section{background:#fffdfa;padding:83px 0}
+.bio-book-grid{display:grid;grid-template-columns:170px 1fr;gap:9%;align-items:center;max-width:860px;margin:auto}
+.bio-book-grid img{max-width:170px;box-shadow:10px 13px 22px #2223;transform:rotate(-2deg)}
+.bio-book-grid h2{font-size:clamp(2.2rem,4vw,4.2rem);margin:0 0 17px}
+.bio-book-grid p{line-height:1.8}
+.bio-book-actions{display:flex;gap:22px;flex-wrap:wrap;align-items:center;margin-top:22px}
+.bio-page .footer-grid{align-items:start}
+@media(max-width:1050px){.bio-hero-grid{gap:5%}.bio-portrait img{height:520px}.bio-two-col{gap:6%}}
+@media(max-width:800px){.bio-hero{padding:44px 0 68px}.bio-hero-grid,.bio-two-col,.bio-mentoring-grid{grid-template-columns:1fr;gap:37px}.bio-hero-copy{max-width:720px}.bio-portrait{max-width:570px;width:100%;margin:0 auto}.bio-section{padding:72px 0}.bio-pillars{gap:12px}.bio-pillar{padding:24px 21px}.bio-pillar h3{font-size:1.35rem;margin-top:27px}.bio-milestones{gap:0 25px}}
+@media(max-width:580px){.bio-back-row{padding-top:20px}.bio-hero{padding:40px 0 60px}.bio-hero h1{font-size:clamp(3.1rem,12vw,4.5rem)}.bio-role{font-size:.66rem}.bio-portrait img{height:430px}.bio-section{padding:64px 0}.bio-section h2{font-size:clamp(2.5rem,9vw,3.8rem)}.bio-pillars,.bio-milestones{grid-template-columns:1fr}.bio-pillar{min-height:0}.bio-milestone{grid-template-columns:78px 1fr}.bio-book-grid{grid-template-columns:1fr;gap:35px}.bio-book-grid img{width:150px}.bio-book-section{padding:64px 0}.book-copy .book-subtitle{padding-left:16px}.about-actions{gap:4px 23px}}
