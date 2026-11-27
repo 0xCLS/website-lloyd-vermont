@@ -19,18 +19,6 @@ document.addEventListener('keydown', event => {
     menuButton.setAttribute('aria-label', 'Open main navigation');
   }
 });
-const signup = document.getElementById('signup-form');
-if (signup) signup.addEventListener('submit', event => {
-  event.preventDefault();
-  const emailInput = document.getElementById('email');
-  const message = document.getElementById('form-feedback');
-  if (!emailInput.checkValidity()) {
-    message.textContent = 'Please enter a valid email address to preview this form.';
-    emailInput.focus();
-    return;
-  }
-  message.textContent = 'This is a design preview. Your email address has not been submitted or stored.';
-});
 
 
 // V5 testimonial carousel: intentional navigation only; no autoplay while reading.
