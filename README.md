@@ -1,23 +1,9 @@
-# Lloyd A. Vermont Sr. — Website Design Baseline V5
+# Building Your Own Wealth Yourself
 
-This repository contains the approved static website design baseline supplied on November 16, 2026.
+Static HTML, CSS and JavaScript; no build step. The approved design, book cover, photographs and testimonials are retained. Open `index.html` locally or serve this directory over HTTP.
 
-## Preview
-Open `index.html` locally. The site uses `styles.css`, `script.js`, and images under `assets/`.
-No build system is required. It is compatible with GitHub Pages.
+Production: https://buildingyourownwealth.com/ (Cloudflare Pages). GitHub Pages remains a preview at https://0xcls.github.io/website-lloyd-vermont/. Relative navigation keeps both hosts working; canonical and sitemap URLs point to production. Cloudflare Pages serves the biography at `/about` and redirects `/about.html` there.
 
-## Design baseline
-- Compact hero headline: "Your wealth. Your future. Your legacy."
-- One-at-a-time testimonial carousel with previous/next controls and navigation dots
-- Expanded testimonial replaces the excerpt without a duplicated divider
-- Approved "Building Your Own Wealth Yourself" book cover and original photographs
-- Cream, charcoal, and warm-red visual style
+Newsletter subscription is not active: select a provider and verified sender before implementing name/email collection, explicit consent, spam protection, accessible feedback, unsubscribe and end-to-end tests. Never put private credentials in browser code or Git. Publish a client-approved privacy notice reflecting actual services before collection or analytics.
 
-## Not yet production-ready
-- Newsletter form is a non-submitting demo.
-- Attribution, permission, and fact checks are documented in `README.txt`.
-- Final domain configuration, privacy policy, financial-content disclosures, book purchasing, analytics and SEO need completion.
-
-## GitHub Pages
-After the source files are committed, choose **Settings → Pages → Deploy from a branch → main → /(root) → Save**.
-Until Pages is enabled, the repository stores the source but does not serve a public website.
+Maintain metadata, sitemap, financial education disclosures and content permissions when publishing changes. Verify deployment, both pages, links, assets, responsive layouts, DNS and redirects after release. The WWW hostname and analytics depend on access to the correct Cloudflare account.
