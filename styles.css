@@ -120,3 +120,19 @@
 @media(max-width:1050px){.bio-hero-grid{gap:5%}.bio-portrait img{height:520px}.bio-two-col{gap:6%}}
 @media(max-width:800px){.bio-hero{padding:44px 0 68px}.bio-hero-grid,.bio-two-col,.bio-mentoring-grid{grid-template-columns:1fr;gap:37px}.bio-hero-copy{max-width:720px}.bio-portrait{max-width:570px;width:100%;margin:0 auto}.bio-section{padding:72px 0}.bio-pillars{gap:12px}.bio-pillar{padding:24px 21px}.bio-pillar h3{font-size:1.35rem;margin-top:27px}.bio-milestones{gap:0 25px}}
 @media(max-width:580px){.bio-back-row{padding-top:20px}.bio-hero{padding:40px 0 60px}.bio-hero h1{font-size:clamp(3.1rem,12vw,4.5rem)}.bio-role{font-size:.66rem}.bio-portrait img{height:430px}.bio-section{padding:64px 0}.bio-section h2{font-size:clamp(2.5rem,9vw,3.8rem)}.bio-pillars,.bio-milestones{grid-template-columns:1fr}.bio-pillar{min-height:0}.bio-milestone{grid-template-columns:78px 1fr}.bio-book-grid{grid-template-columns:1fr;gap:35px}.bio-book-grid img{width:150px}.bio-book-section{padding:64px 0}.book-copy .book-subtitle{padding-left:16px}.about-actions{gap:4px 23px}}
+
+/* Darker red surfaces preserve the palette while making light text readable. */
+.button.primary{background:#b83221;border-color:#b83221}
+.button.primary:hover{background:#9d2a1c}
+.newsletter-section{background:#b83221}
+.newsletter-section h2 em{color:#fff}
+.hero-copy>.eyebrow,.book-copy>.eyebrow,.book-points b,.insight-grid article>span,.bio-pillar .pillar-n{color:#a83223}
+.reflection-intro>.eyebrow,.bio-mentoring-grid .eyebrow{color:#f2b2a5}
+.principle-number{color:#6d655e}
+.art-caption{color:#5e5a55}
+.carousel-dot{width:24px;height:24px;min-width:24px;border:0;background:transparent;position:relative}
+.carousel-dot::after{content:"";position:absolute;width:10px;height:10px;left:7px;top:7px;border:1px solid #a6a9ad;border-radius:50%}
+.carousel-dot.is-current{background:transparent}
+.carousel-dot.is-current::after{border-color:var(--red);background:var(--red)}
+.carousel-dot:hover::after{border-color:white}
+.site-footer p{color:#b9bbc1}

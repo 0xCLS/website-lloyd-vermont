@@ -14,9 +14,11 @@ primaryNavigation.addEventListener('click', event => {
 });
 document.addEventListener('keydown', event => {
   if (event.key === 'Escape') {
+    const returnFocus = primaryNavigation.classList.contains('open') && primaryNavigation.contains(document.activeElement);
     primaryNavigation.classList.remove('open');
     menuButton.setAttribute('aria-expanded', 'false');
     menuButton.setAttribute('aria-label', 'Open main navigation');
+    if (returnFocus) menuButton.focus();
   }
 });
 
